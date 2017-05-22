@@ -1,3 +1,4 @@
+module.exports =
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -60,17 +61,35 @@
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "/assets/";
+/******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 18);
+/******/ 	return __webpack_require__(__webpack_require__.s = 13);
 /******/ })
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-module.exports = React;
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _Mask = __webpack_require__(10);
+
+var _Mask2 = _interopRequireDefault(_Mask);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.default = _Mask2.default; /**
+                                   * Mask of milk-component
+                                   * @author caiyongmin
+                                   *
+                                   * Copyright 2017-2019, All rights reserved.
+                                   */
 
 /***/ }),
 /* 1 */
@@ -328,6 +347,46 @@ function updateLink(linkElement, obj) {
 /* 2 */
 /***/ (function(module, exports, __webpack_require__) {
 
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(3);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// add the styles to the DOM
+var update = __webpack_require__(1)(content, {});
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("!!../../../milk-dev/node_modules/.0.27.3@css-loader/index.js!../../../milk-dev/node_modules/.6.0.3@sass-loader/lib/loader.js!./index.scss", function() {
+			var newContent = require("!!../../../milk-dev/node_modules/.0.27.3@css-loader/index.js!../../../milk-dev/node_modules/.6.0.3@sass-loader/lib/loader.js!./index.scss");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 3 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(4)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, "/**\n * Mask of milk-component\n * @author caiyongmin\n *\n * Copyright 2017-2019, All rights reserved.\n */\n.milk-mask {\n  position: fixed;\n  top: 0;\n  right: 0;\n  left: 0;\n  bottom: 0;\n  z-index: 1000;\n  background: black; }\n\n.milk-mask_transparent {\n  background: rgba(0, 0, 0, 0.6); }\n", ""]);
+
+// exports
+
+
+/***/ }),
+/* 4 */
+/***/ (function(module, exports, __webpack_require__) {
+
 /* WEBPACK VAR INJECTION */(function(Buffer) {/*
 	MIT License http://www.opensource.org/licenses/mit-license.php
 	Author Tobias Koppers @sokra
@@ -404,118 +463,10 @@ function toComment(sourceMap) {
   return '/*# ' + data + ' */';
 }
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(12).Buffer))
-
-/***/ }),
-/* 3 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _reactDom = __webpack_require__(17);
-
-var _reactDom2 = _interopRequireDefault(_reactDom);
-
-var _Demo = __webpack_require__(13);
-
-var _Demo2 = _interopRequireDefault(_Demo);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-_reactDom2.default.render(_react2.default.createElement(_Demo2.default, null), document.querySelector('#app')); /**
-                                                                                                                 * Mask of milk-component
-                                                                                                                 * @author caiyongmin
-                                                                                                                 *
-                                                                                                                 * Copyright 2017-2019, All rights reserved.
-                                                                                                                 */
-
-/***/ }),
-/* 4 */
-/***/ (function(module, exports, __webpack_require__) {
-
-// style-loader: Adds some css to the DOM by adding a <style> tag
-
-// load the styles
-var content = __webpack_require__(6);
-if(typeof content === 'string') content = [[module.i, content, '']];
-// add the styles to the DOM
-var update = __webpack_require__(1)(content, {});
-if(content.locals) module.exports = content.locals;
-// Hot Module Replacement
-if(false) {
-	// When the styles change, update the <style> tags
-	if(!content.locals) {
-		module.hot.accept("!!../../../milk-dev/node_modules/.0.27.3@css-loader/index.js!../../../milk-dev/node_modules/.1.3.3@postcss-loader/index.js??ref--1-2!../../../milk-dev/node_modules/.6.0.3@sass-loader/lib/loader.js!./Demo.scss", function() {
-			var newContent = require("!!../../../milk-dev/node_modules/.0.27.3@css-loader/index.js!../../../milk-dev/node_modules/.1.3.3@postcss-loader/index.js??ref--1-2!../../../milk-dev/node_modules/.6.0.3@sass-loader/lib/loader.js!./Demo.scss");
-			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
-			update(newContent);
-		});
-	}
-	// When the module is disposed, remove the <style> tags
-	module.hot.dispose(function() { update(); });
-}
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(9).Buffer))
 
 /***/ }),
 /* 5 */
-/***/ (function(module, exports, __webpack_require__) {
-
-// style-loader: Adds some css to the DOM by adding a <style> tag
-
-// load the styles
-var content = __webpack_require__(7);
-if(typeof content === 'string') content = [[module.i, content, '']];
-// add the styles to the DOM
-var update = __webpack_require__(1)(content, {});
-if(content.locals) module.exports = content.locals;
-// Hot Module Replacement
-if(false) {
-	// When the styles change, update the <style> tags
-	if(!content.locals) {
-		module.hot.accept("!!../../../milk-dev/node_modules/.0.27.3@css-loader/index.js!../../../milk-dev/node_modules/.1.3.3@postcss-loader/index.js??ref--1-2!../../../milk-dev/node_modules/.6.0.3@sass-loader/lib/loader.js!./index.scss", function() {
-			var newContent = require("!!../../../milk-dev/node_modules/.0.27.3@css-loader/index.js!../../../milk-dev/node_modules/.1.3.3@postcss-loader/index.js??ref--1-2!../../../milk-dev/node_modules/.6.0.3@sass-loader/lib/loader.js!./index.scss");
-			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
-			update(newContent);
-		});
-	}
-	// When the module is disposed, remove the <style> tags
-	module.hot.dispose(function() { update(); });
-}
-
-/***/ }),
-/* 6 */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(2)(undefined);
-// imports
-
-
-// module
-exports.push([module.i, "/**\n * Mask of milk-component\n * @author caiyongmin\n *\n * Copyright 2017-2019, All rights reserved.\n */\n.demo-panel {\n  padding: 0 0.25rem; }\n\n.demo-title {\n  margin-top: 0.2rem;\n  font-size: 0.6rem; }\n\n.demo-description {\n  margin-top: 0.15rem;\n  font-size: 0.26rem;\n  color: #3b3b3b; }\n\n.demo-item {\n  margin-top: 0.2rem; }\n", ""]);
-
-// exports
-
-
-/***/ }),
-/* 7 */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(2)(undefined);
-// imports
-
-
-// module
-exports.push([module.i, "/**\n * Mask of milk-component\n * @author caiyongmin\n *\n * Copyright 2017-2019, All rights reserved.\n */\n.milk-mask {\n  position: fixed;\n  top: 0;\n  right: 0;\n  left: 0;\n  bottom: 0;\n  z-index: 1000;\n  background: black; }\n\n.milk-mask_transparent {\n  background: rgba(0, 0, 0, 0.6); }\n", ""]);
-
-// exports
-
-
-/***/ }),
-/* 8 */
 /***/ (function(module, exports) {
 
 var toString = {}.toString;
@@ -526,7 +477,7 @@ module.exports = Array.isArray || function (arr) {
 
 
 /***/ }),
-/* 9 */
+/* 6 */
 /***/ (function(module, exports) {
 
 exports.read = function (buffer, offset, isLE, mLen, nBytes) {
@@ -616,7 +567,7 @@ exports.write = function (buffer, value, offset, isLE, mLen, nBytes) {
 
 
 /***/ }),
-/* 10 */
+/* 7 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -737,7 +688,7 @@ function fromByteArray (uint8) {
 
 
 /***/ }),
-/* 11 */
+/* 8 */
 /***/ (function(module, exports) {
 
 var g;
@@ -764,7 +715,7 @@ module.exports = g;
 
 
 /***/ }),
-/* 12 */
+/* 9 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -778,9 +729,9 @@ module.exports = g;
 
 
 
-var base64 = __webpack_require__(10)
-var ieee754 = __webpack_require__(9)
-var isArray = __webpack_require__(8)
+var base64 = __webpack_require__(7)
+var ieee754 = __webpack_require__(6)
+var isArray = __webpack_require__(5)
 
 exports.Buffer = Buffer
 exports.SlowBuffer = SlowBuffer
@@ -2558,85 +2509,10 @@ function isnan (val) {
   return val !== val // eslint-disable-line no-self-compare
 }
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(11)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(8)))
 
 /***/ }),
-/* 13 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _src = __webpack_require__(15);
-
-var _src2 = _interopRequireDefault(_src);
-
-__webpack_require__(4);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; } /**
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                * Mask of milk-component
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                * @author caiyongmin
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                *
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                * Copyright 2017-2019, All rights reserved.
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                */
-
-var Demo = function (_Component) {
-  _inherits(Demo, _Component);
-
-  function Demo() {
-    _classCallCheck(this, Demo);
-
-    return _possibleConstructorReturn(this, (Demo.__proto__ || Object.getPrototypeOf(Demo)).apply(this, arguments));
-  }
-
-  _createClass(Demo, [{
-    key: 'render',
-    value: function render() {
-      return _react2.default.createElement(
-        'div',
-        { className: 'demo-panel' },
-        _react2.default.createElement(
-          'div',
-          { className: 'demo-title' },
-          'Title'
-        ),
-        _react2.default.createElement(
-          'div',
-          { className: 'demo-description' },
-          'Fake Page \uD83D\uDE00.'
-        ),
-        _react2.default.createElement(
-          'div',
-          { className: 'demo-item' },
-          _react2.default.createElement(_src2.default, null)
-        )
-      );
-    }
-  }]);
-
-  return Demo;
-}(_react.Component);
-
-exports.default = Demo;
-
-/***/ }),
-/* 14 */
+/* 10 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2650,15 +2526,15 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = __webpack_require__(0);
+var _react = __webpack_require__(12);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _classnames = __webpack_require__(16);
+var _classnames = __webpack_require__(11);
 
 var _classnames2 = _interopRequireDefault(_classnames);
 
-__webpack_require__(5);
+__webpack_require__(2);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -2712,31 +2588,7 @@ Mask.defaultProps = {
 exports.default = Mask;
 
 /***/ }),
-/* 15 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _Mask = __webpack_require__(14);
-
-var _Mask2 = _interopRequireDefault(_Mask);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-exports.default = _Mask2.default; /**
-                                   * Mask of milk-component
-                                   * @author caiyongmin
-                                   *
-                                   * Copyright 2017-2019, All rights reserved.
-                                   */
-
-/***/ }),
-/* 16 */
+/* 11 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
@@ -2791,16 +2643,16 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
 
 
 /***/ }),
-/* 17 */
+/* 12 */
 /***/ (function(module, exports) {
 
-module.exports = ReactDOM;
+module.exports = React;
 
 /***/ }),
-/* 18 */
+/* 13 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(3);
+module.exports = __webpack_require__(0);
 
 
 /***/ })
