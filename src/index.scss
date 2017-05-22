@@ -1,0 +1,20 @@
+/**
+ * Mask of milk-component
+ * @author caiyongmin
+ *
+ * Copyright 2017-2019, All rights reserved.
+ */
+
+.milk-mask {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 1000;
+  background: rgba(0,0,0,1);
+}
+
+.milk-mask_transparent {
+  background: rgba(0,0,0,.6);
+}
