@@ -9,7 +9,7 @@
 ## 使用
 
 ```js
-import Mask from 'milk-milk-mask';
+import Mask from 'milk-mask';
 
 <Mask></Mask>
 ```
