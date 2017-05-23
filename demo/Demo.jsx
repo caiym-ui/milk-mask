@@ -1,5 +1,5 @@
 /**
- * Mask of milk-component
+ * Mask of milkui-component
  * @author caiyongmin
  *
  * Copyright 2017-2019, All rights reserved.
@@ -14,9 +14,9 @@ class Demo extends Component {
   render() {
     return (
       <div className="demo-panel">
-        <div className="demo-title">Title</div>
+        <div className="demo-title">Milk Ui</div>
         <div className="demo-description">
-          Fake Page 😀.
+          Demo Page 😀.
         </div>
         <div className="demo-item">
           <Mask />

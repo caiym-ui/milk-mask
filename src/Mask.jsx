@@ -1,5 +1,5 @@
 /**
- * Mask of milk-component
+ * Mask of milkui-component
  * @author caiyongmin
  *
  * Copyright 2017-2019, All rights reserved.
@@ -25,8 +25,8 @@ class Mask extends Component {
   render() {
     const { className, transparent, ...others } = this.props;
     const classNames = classnames(
-      'milk-mask',
-      { 'milk-mask_transparent': transparent },
+      'milkui-mask',
+      { 'milkui-mask_transparent': transparent },
       className
     );
 

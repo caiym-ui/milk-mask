@@ -1,11 +1,11 @@
 /**
- * Mask of milk-component
+ * Mask of milkui-component
  * @author caiyongmin
  *
  * Copyright 2017-2019, All rights reserved.
  */
 
-.milk-mask {
+.milkui-mask {
   position: fixed;
   top: 0;
   right: 0;
@@ -15,6 +15,6 @@
   background: rgba(0,0,0,1);
 }
 
-.milk-mask_transparent {
+.milkui-mask_transparent {
   background: rgba(0,0,0,.6);
 }

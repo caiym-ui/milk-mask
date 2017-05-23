@@ -1,4 +1,4 @@
-# milk-mask
+# milkui-mask
 
 组件描述
 
@@ -9,7 +9,7 @@
 ## 使用
 
 ```js
-import Mask from 'milk-mask';
+import Mask from 'milkui-mask';
 
 <Mask></Mask>
 ```
@@ -33,4 +33,4 @@ npm start
 
 ## 链接
 
-- [Issues](https://github.com/caiym-ui/milk-mask/issues)
+- [Issues](https://github.com/milk-ui/milkui-mask/issues)

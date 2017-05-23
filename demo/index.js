@@ -1,5 +1,5 @@
 /**
- * Mask of milk-component
+ * Mask of milkui-component
  * @author caiyongmin
  *
  * Copyright 2017-2019, All rights reserved.
