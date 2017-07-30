@@ -2,7 +2,7 @@
 
 > 遮罩层
 
-## overview
+## Overview
 
 ![image](https://user-images.githubusercontent.com/11053605/28750932-14e6aa7e-752d-11e7-9060-7ea2a0691ab8.png)
 
