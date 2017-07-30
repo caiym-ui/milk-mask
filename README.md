@@ -1,36 +1,36 @@
 # milkui-mask
 
-组件描述
+> 遮罩层
 
-## 效果图
+## overview
 
-...some images
+![image](https://user-images.githubusercontent.com/11053605/28750932-14e6aa7e-752d-11e7-9060-7ea2a0691ab8.png)
 
-## 使用
+## Example
 
 ```js
 import Mask from 'milkui-mask';
 
-<Mask></Mask>
+<Mask />
 ```
 
 ## 参数
 
-| Properties | Type | Description | Default |
+| Property | Type | Description | Default |
 | -- | -- | -- | -- |
 | className | String | 自定义的 class 类名 | '' |
 | transparent | Boolean | 是否透明 | `true` |
 
-## 开发
-
-### install
+## Develop
 
 ```bash
-cnpm i milk-dev -g    # 组件开发工具
+cnpm i milk-dev -g    # dev tool
+
 cnpm install
+
 npm start
 ```
 
-## 链接
+## Links
 
 - [Issues](https://github.com/milk-ui/milkui-mask/issues)
