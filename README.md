@@ -14,7 +14,7 @@ import Mask from 'milkui-mask';
 <Mask />
 ```
 
-## 参数
+## Properties
 
 | Property | Type | Description | Default |
 | -- | -- | -- | -- |
