@@ -1,8 +1,8 @@
 # milkui-mask
 
-[![npm version](https://img.shields.io/npm/v/milkui-dialog.svg?style=flat)](https://www.npmjs.com/package/milkui-dialog) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](README.md)
+[![npm version](https://img.shields.io/npm/v/milkui-mask.svg?style=flat)](https://www.npmjs.com/package/milkui-mask) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](README.md)
 
-[![NPM](https://nodei.co/npm/milkui-dialog.png?downloads=true&downloadRank=true)](https://nodei.co/npm/milkui-dialog/)
+[![NPM](https://nodei.co/npm/milkui-mask.png?downloads=true&downloadRank=true)](https://nodei.co/npm/milkui-mask/)
 
 > 遮罩层
 
